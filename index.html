@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>А на реакт.су все стабильно</title>
+    <style>
+        @import url("https://rsms.me/inter/inter.css");
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: "Inter", sans-serif;
+            color: #eee;
+            text-align: center;
+            overflow: hidden;
+            user-select: none;
+        }
+
+        .name {
+            font-size: 1.8rem;
+            padding: 30px;
+            line-height: 3rem;
+            text-align: right;
+        }
+
+        .days {
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 4em;
+            line-height: 0.9em;
+        }
+
+        .alt {
+            position: absolute;
+            bottom: 30px;
+            text-decoration: none;
+            color: inherit;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            font-size: 0.8em;
+            opacity: 0.2;
+            transition: opacity 0.3s;
+            padding: 0 30px;
+            line-height: 1.6em;
+        }
+
+        .alt:hover {
+            opacity: 1;
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        i.emoji{
+            background: url("D83DDE0F_2x.png") no-repeat center/cover;
+            width: 38px;
+            height: 38px;
+            display: inline-block;
+        }
+
+        @media screen and (max-width: 720px) {
+            .name {
+                font-size: 1.2rem;
+                line-height: 2rem;
+            }
+            .days{
+                font-size: 3rem;
+            }
+            i.emoji{
+                width: 28px;
+                height: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--<a href="#" class="alt">
+        Серьёзно?
+    </a>-->
+    
+    <div class="days">
+        <span>
+            &#171;А на реакт.су все стабильно <i class="emoji"></i>&#187;
+        </span>
+        <div class="name">
+            &#127279; Николай Ярцов
+        </div>
+    </div>
+    <script src="swag.js"></script>
+</body>
+
+</html>
